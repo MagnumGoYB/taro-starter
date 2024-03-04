@@ -1,0 +1,50 @@
+@import '@/_variables';
+
+.tab-bar {
+  width: 100%;
+  height: $tab-bar-height;
+  box-sizing: border-box;
+  border-radius: $tab-bar-border-radius;
+  box-shadow: 0px -8px 18px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: $tab-bar-bgcolor;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .title {
+      margin-top: 5px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      color: $tab-bar-text-color;
+      text-align: center;
+
+      &.active {
+        color: $tab-bar-text-active-color;
+      }
+    }
+  }
+}

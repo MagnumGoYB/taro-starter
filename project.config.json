@@ -1,0 +1,25 @@
+{
+  "appid": "",
+  "compileType": "miniprogram",
+  "condition": {},
+  "libVersion": "widelyUsed",
+  "miniprogramRoot": "dist/",
+  "projectname": "taro-starter",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "autoAudits": false,
+    "coverView": true,
+    "showShadowRootInWxmlPanel": false,
+    "scopeDataCheck": false,
+    "useCompilerModule": false
+  },
+  "simulatorPluginLibVersion": {},
+  "simulatorType": "wechat"
+}

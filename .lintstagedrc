@@ -1,0 +1,4 @@
+{
+  "*": "npm run pretty",
+  "*.ts?(x)": "npm run lint"
+}

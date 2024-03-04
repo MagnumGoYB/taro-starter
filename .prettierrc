@@ -1,0 +1,15 @@
+{
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@/(.*)$",
+    "^(?!./).*/(.*ss)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "plugins": [
+    "prettier-plugin-sort-imports-by-identifier"
+  ],
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none"
+}

@@ -1,0 +1,13 @@
+$color: #000;
+$background-color: #fff;
+
+$tab-bar-bgcolor: #fff;
+$tab-bar-border-radius: 30px 30px 0px 0px;
+$tab-bar-height: 180px;
+$tab-bar-text-color: #cdcdcd;
+$tab-bar-text-active-color: #000;
+
+$layout-header-safe-area-top: calc(
+  var(--status-bar-height) + env(safe-area-inset-top)
+);
+$layout-header-height: calc(88px + $layout-header-safe-area-top);
