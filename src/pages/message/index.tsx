@@ -8,7 +8,7 @@ import './index.scss'
 const MessagePage: FC<PropsWithChildren> = () => {
   return (
     <Layout>
-      <Text>MessagePage</Text>
+      <Text>This is Message Page</Text>
     </Layout>
   )
 }

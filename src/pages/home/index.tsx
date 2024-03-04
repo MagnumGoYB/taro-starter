@@ -5,12 +5,12 @@ import Layout from '@/components/Layout'
 
 import './index.scss'
 
-const AiChatPage: FC<PropsWithChildren> = () => {
+const HomePage: FC<PropsWithChildren> = () => {
   return (
     <Layout>
-      <Text>AiChatPage</Text>
+      <Text>This is Home Page</Text>
     </Layout>
   )
 }
 
-export default AiChatPage
+export default HomePage

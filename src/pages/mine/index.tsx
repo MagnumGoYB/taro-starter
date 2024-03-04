@@ -8,7 +8,7 @@ import './index.scss'
 const MinePage: FC<PropsWithChildren> = () => {
   return (
     <Layout hideHeader>
-      <Text>MinePage</Text>
+      <Text>This is Mine Page</Text>
     </Layout>
   )
 }
